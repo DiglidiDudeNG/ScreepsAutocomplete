@@ -6,9 +6,7 @@
  */
 Game = function() { };
 
-
-Game.prototype =
-{
+Game.prototype = {
     /**
      * An amount of available CPU time at the current game tick. It can be higher than your account CPU limit.
      *

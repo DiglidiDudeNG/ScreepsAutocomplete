@@ -5,8 +5,7 @@
  */
 Structure_Controller = function() { };
 
-Structure_Controller.prototype =
-{
+Structure_Controller.prototype = {
     /**
      * Current controller level, from 0 to 8.
      *

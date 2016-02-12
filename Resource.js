@@ -8,8 +8,7 @@
  */
 Resource = function() { };
 
-Resource.prototype =
-{
+Resource.prototype = {
     /**
      * The amount of resource units containing.
      *

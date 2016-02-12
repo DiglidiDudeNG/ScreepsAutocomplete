@@ -12,8 +12,7 @@
  */
 RoomPosition = function(x, y, roomName) { };
 
-RoomPosition.prototype =
-{
+RoomPosition.prototype = {
     /**
      * The name of the room.
      *

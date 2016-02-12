@@ -9,8 +9,7 @@
  */
 ConstructionSite = function() { };
 
-ConstructionSite.prototype =
-{
+ConstructionSite.prototype = {
     /**
      * A unique object identifier. You can use Game.getObjectById method to retrieve an object instance by its id.
      *

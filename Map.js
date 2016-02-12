@@ -6,8 +6,7 @@
  */
 Map = function() { };
 
-Map.prototype =
-{
+Map.prototype = {
     /**
      * List all exits available from the room with the given name.
      *

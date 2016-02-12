@@ -6,8 +6,7 @@
  */
 Structure = function() { };
 
-Structure.prototype =
-{
+Structure.prototype = {
     /**
      * The current amount of hit points of the structure.
      *

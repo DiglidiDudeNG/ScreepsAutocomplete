@@ -6,8 +6,7 @@
  */
 Spawn = function() { };
 
-Spawn.prototype =
-{
+Spawn.prototype = {
     /**
      * The amount of energy containing in the spawn.
      *

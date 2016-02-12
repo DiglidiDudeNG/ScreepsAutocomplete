@@ -6,8 +6,7 @@
  */
 RawMemory = function() { };
 
-RawMemory.prototype =
-{
+RawMemory.prototype = {
     /**
      * Get a raw string representation of the Memory object.
      *

@@ -6,8 +6,7 @@
  */
 Source = function() { };
 
-Source.prototype =
-{
+Source.prototype = {
     /**
      * The remaining amount of energy.
      *

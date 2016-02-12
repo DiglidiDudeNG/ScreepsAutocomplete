@@ -8,8 +8,7 @@
  */
 Creep = function() { };
 
-Creep.prototype =
-{
+Creep.prototype = {
     /**
      * An array describing the creep’s body.
      * Each element contains the following properties:

@@ -8,8 +8,7 @@
  */
 Room = function() { };
 
-Room.prototype =
-{
+Room.prototype = {
     /**
      * The Controller structure of this room, if present, otherwise undefined.
      *
@@ -275,19 +274,19 @@ Room.prototype =
      *
      * @return {object} An object with all the objects of the given type in the specified area in the following format:
      *
-     *   // 10,5,11,7
-         {
-             10: {
-                 5: [{...}],
-                 6: undefined,
-                 7: undefined
-             },
-             11: {
-                 5: undefined,
-                 6: [{...}, {...}],
-                 7: undefined
-             }
-         }
+     *<pre>// 10,5,11,7
+     *{
+     *    10: {
+     *        5: [{...}],
+     *        6: undefined,
+     *        7: undefined
+     *    },
+     *    11: {
+     *        5: undefined,
+     *        6: [{...}, {...}],
+     *        7: undefined
+     *    }
+     *}</pre>
      */
     lookForAtArea: function(type, top, left, bottom, right) { }
 };
